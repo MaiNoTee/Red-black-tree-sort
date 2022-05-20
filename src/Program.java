@@ -33,7 +33,7 @@ public class Program {
 
 
     private static ArrayList<ArrayList<Integer>> RedBlackSort(String values) {
-        var outputData = new ArrayList<ArrayList<Integer>>(); // 0 - current array length, 1 - current tree count if uses
+        var outputData = new ArrayList<ArrayList<Integer>>(); // 0 - current array length, 1 - current count of uses the tree
         outputData.add(0, new ArrayList<>());
         outputData.add(1, new ArrayList<>());
         var input = values.replace('[', ' ').replace(']', ' ').trim().split(", ");
